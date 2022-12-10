@@ -93,8 +93,8 @@ pub fn day_two() {
         part_two += result_part_two(p1, chooses[1]);
     }
 
-    println!("DAY 2 - 1 => {}", part_one);
-    println!("DAY 2 - 2 => {}", part_two);
+    println!("DAY 02 - 1 => {}", part_one);
+    println!("DAY 02 - 2 => {}", part_two);
 }
 
 fn result_part_one(p1: GameChoice, p2: GameChoice) -> i32 {
